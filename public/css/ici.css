@@ -1,0 +1,94 @@
+body {
+	padding: 40px;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+        inset #1D537D 0 0 0 5px,
+        inset #18cdf7 0 0 0 1px,
+        inset #CD6D27 0 0 0 10px,
+        inset #86A27C 0 0 0 11px,
+        inset #86A27C 0 0 0 16px,
+        inset #488CCB 0 0 0 17px,
+        inset #488CCB 0 0 0 22px,
+        inset #bfecf7 0 0 0 23px;
+	-moz-box-shadow:
+        inset #1D537D 0 0 0 5px,
+        inset #18cdf7 0 0 0 1px,
+        inset #CD6D27 0 0 0 10px,
+        inset #86A27C 0 0 0 11px,
+        inset #86A27C 0 0 0 16px,
+        inset #488CCB 0 0 0 17px,
+        inset #488CCB 0 0 0 22px,
+        inset #bfecf7 0 0 0 23px;
+	box-shadow:
+		inset #1D537D 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #CD6D27 0 0 0 10px,
+		inset #86A27C 0 0 0 11px,
+		inset #86A27C 0 0 0 16px,
+		inset #488CCB 0 0 0 17px,
+		inset #488CCB 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+        
+}
+body {min-height: 100%;}
+header h2.h3 {color: grey;
+}
+.fade-in-text {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .highlight {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+            animation: 1.5s highlight 1.5s 1 normal forwards;
+    background-color: none;
+    background: linear-gradient(90deg, #ffd500 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    color: #1D537D;
+  }
+  
+  @-webkit-keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+  @keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+  header {border-bottom: #86A27C 1px solid;}
+  main {padding-top: 3em;}
+  section {margin-bottom: 3em;}
+
+  
