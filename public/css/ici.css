@@ -127,4 +127,4 @@ header h2.h3 {color: grey;
     font-weight: bold;
   }
 }
-  .bg-body-tertiary:is(a) {color:#1D537D;}
+  .nav-link {color:#1D537D !important; text-decoration: underline !important;}
