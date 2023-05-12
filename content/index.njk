@@ -5,9 +5,10 @@ eleventyNavigation:
   order: 1
 
 ---
-<section id="intro">
+<section id="intro" class="alt_bg">
+	<div class="container">
 
-<h3>About the Council</h3>
+<h2>About the Council</h2>
 <p>The former 2015-2021 National Coordinating Center (NCC) Accreditation Workgroup determined that no current accrediting agency exists that could meet all our needs. In 2021 the NCC Accreditation Workgroup called for the development of an independent agency to provide accreditation. Therefore, the 2021-2025 NCC Accreditation Workgroup and Think College leaders worked to build the infrastructure and operationalize the framework for this Council. The Council will specialize in the accreditation of programs for students with intellectual disability and plans to apply for national recognition of the new agency by 2025.</p>
 <hr>
 <div class="row">
@@ -21,10 +22,10 @@ eleventyNavigation:
 The Program Accreditation Standards address key areas of quality programs including Student Achievement, Curriculum, and Student Services. <a href="https://thinkcollege.net/sites/default/files/files/TCreport_accred_modelstandards_2021.pdf">You can read more about the Program Standards at ThinkCollege.net</a>.
 
 	</div>
-	<div class="col-lg-4"> <div class="card"><div class="card-body">
-		<p class="lead">The IHEA Council is in its earliest days. Reach out to us to learn more or teach us about you. </p> <!-- Button trigger modal -->
+	<div class="col-lg-4"> <div class="card call_out"><div class="card-body">
+		<p class="lead">You can learn more information about how to prepare for program accreditation </p> <!-- Button trigger modal -->
 		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#contactModal">
-		  Start the Conversation
+		  Get In Touch
 		</button>
 		
 		<!-- Modal -->
@@ -36,57 +37,64 @@ The Program Accreditation Standards address key areas of quality programs includ
 				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 			  </div>
 			  <div class="modal-body">
-				...
-			  </div>
-			  <div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
+				<form name="contact" method="POST" data-netlify="true">
+					<p>
+					  <label>Your Name: <input type="text" name="name" /></label>
+					</p>
+					<p>
+					  <label>Your Email: <input type="email" name="email" /></label>
+					</p>
+					<p>
+						<label>Job Title: <input type="text" name="title" /></label>
+					</p>
+					<p>
+					  <label>Message: <textarea name="message"></textarea></label>
+					</p>
+					<p>
+					  <button type="submit">Send</button>
+					</p>
+				  </form>
+				  
 			  </div>
 			</div>
 		  </div>
+		  <script>
+			const handleSubmit = (event) => {
+  event.preventDefault();
+
+  const myForm = event.target;
+  const formData = new FormData(myForm);
+  
+  fetch("/", {
+    method: "POST",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body: new URLSearchParams(formData).toString(),
+  })
+    .then(() => console.log("Form successfully submitted"))
+    .catch((error) => alert(error));
+};
+
+document
+  .querySelector("form")
+  .addEventListener("submit", handleSubmit);
+		  </script>
 		</div>
 	</div>
  </div>
 </div>
 </div>
-
+	</div>
 </section>
 
 
-<section id="about">
-	<h2>About Us</h2>
 
-<h3>Where are we located? </h3>
-
-<p>We are a virtual office with a registered corporation in Massachusetts.  </p>
-
-<h3>Who should you contact if you have questions?</h3>
-
-<p>Martha Mock, PhD and Executive Director <br>
-<a href="mailto:Email mmock@warner.rochester.edu">Email mmock@warner.rochester.edu</a><br>
-<a href="tel:(585) 276 - 3363">(585)276-3363</a></p>
-</section>
 
 <section id="board">
+	<div class="container">
 	<h2>Council and Board Members </h2>
-
-	
-		<div class="row col-lg-8 mx-auto">
-			<div class="col">
-			  <div class="card h-100 py-2">
-				<img src="/img/mock.jpg" class="card-img-top mx-auto" alt="Martha Mock">
-				<div class="card-body">
-				  
-				  <p class="card-text"><strong>Martha Mock, Ph.D., IHEA Council Executive Director</strong> and a Professor at the Warner School of Education and Human Development, at the University of Rochester. She is also the director of the Center on Disability and Education. Mock has worked alongside and on behalf of individuals with disabilities and their families as a teacher, professor and advocate for three decades. Mock is widely known for her work in the area of college options for students with intellectual and developmental disabilities (IDD). She is the chair of the Accreditation Workgroup for the National Coordinating Center at Think College, and is the co-founder of the New York Inclusive Higher Education Coalition, a group of colleges, agencies, and families interested in promoting inclusive higher education throughout New York State.</p>
-				</div>
-			  </div>
-			</div>
-		
-		  </div>
-
 	<div class="row row-cols-1 row-cols-md-2 g-4">
-	  <div class="col">
-		<div class="card h-100 py-2">
+	  <div class="col pb-3">
+		<div class="card h-100  ">
 		  <img src="/img/smith.jpg" class="card-img-top mx-auto" alt="Stephanie Smith">
 		  <div class="card-body">
 			
@@ -94,7 +102,7 @@ The Program Accreditation Standards address key areas of quality programs includ
 		  </div>
 		</div>
 	  </div>
-	  <div class="col">
+	  <div class="col pb-3">
 		<div class="card h-100 py-2">
 		  <img src="/img/will.png" class="card-img-top mx-auto pb-5" alt="Madeleine C. Will">
 		  <div class="card-body">
@@ -104,7 +112,7 @@ The Program Accreditation Standards address key areas of quality programs includ
 	  </div>
 	</div>
 	<div class="row row-cols-1 row-cols-md-2 g-4">
-	  <div class="col">
+	  <div class="col pb-3">
 		<div class="card h-100 py-2">
 		  <img src="/img/tom.png" class="card-img-top mx-auto" alt="Tom Sannicandro">
 		  <div class="card-body">
@@ -112,7 +120,7 @@ The Program Accreditation Standards address key areas of quality programs includ
 		  </div>
 		</div>
 	  </div>
-	  <div class="col">
+	  <div class="col pb-3">
 		<div class="card h-100 py-2">
 		  <img src="/img/elise.png" class="card-img-top mx-auto" alt="Elise McMillan">
 		  <div class="card-body">
@@ -121,18 +129,32 @@ The Program Accreditation Standards address key areas of quality programs includ
 		</div>
 	  </div>
 	</div>
-  
+	<div class="row col-lg-8 mx-auto">
+		<div class="col pb-3">
+		  <div class="card h-100 py-2">
+			<img src="/img/mock.jpg" class="card-img-top mx-auto" alt="Martha Mock">
+			<div class="card-body">
+			  
+			  <p class="card-text"><strong>Martha Mock, Ph.D., IHEA Council Executive Director</strong> and a Professor at the Warner School of Education and Human Development, at the University of Rochester. She is also the director of the Center on Disability and Education. Mock has worked alongside and on behalf of individuals with disabilities and their families as a teacher, professor and advocate for three decades. Mock is widely known for her work in the area of college options for students with intellectual and developmental disabilities (IDD). She is the chair of the Accreditation Workgroup for the National Coordinating Center at Think College, and is the co-founder of the New York Inclusive Higher Education Coalition, a group of colleges, agencies, and families interested in promoting inclusive higher education throughout New York State.</p>
+			</div>
+		  </div>
+		</div>
+	
+	  </div>
 		  
-
+	</div>
 		
 </section>
 
-<section id="partners">
+<section id="partners" class="alt_bg" >
+	<div class="container">
 	<h3>Partners</h3>
 	<div class="row">
-		<div class="col-lg border text-center"><a href="https://thinkcollege.net"><img alt="ICI and Think college" src="/img/thinkcollege.png" class="img-fluid"></a></div>
+
 	<div class="col-lg border text-center"> <a href="https://thinkcollege.net/projects/ncc"><img alt="National Coordinating Center" src="/img/NCC_logo_300x200.png" class="img-fluid"></a></div>
-	<div class="col-lg border text-center"><a href="https://thinkcollege.net/projects/ncc/program-accreditation"><span class="h3"><br>NCC <BR>Accreditation<br> Workgroup</span></a></div> 
+	
 	<div class="col-lg border text-center"><a href="https://weaveeducation.com/"><img src="/img/Weave-Horizontal-Logo-RGB.webp" alt="Weave" class="img"></a></div>
 	</div>
+	</div>
 </section>
+
