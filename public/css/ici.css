@@ -118,6 +118,7 @@ header h2.h3 {color: grey;
   footer {background-color: #86A27C; color:white;}
   footer a {color: white;}
   #partners img {max-width: 250px; margin: 1em;}
+  #programs img {max-width: 250px; margin: 1em;}
 
   @media (min-width: 767.98px) {
   .bg-body-tertiary {
