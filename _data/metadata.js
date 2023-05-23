@@ -1,11 +1,11 @@
 module.exports = {
-	"title": "Inclusive Higher Edge Council",
-	"url": "https://example.com/",
+	"title": "Inclusive Higher Education Council",
+	"url": "https://iheacouncil.org",
 	"language": "en",
 	"description": "an accrediting agency for college and university programs for students with intellectual disability",
 	"author": {
-		"name": "Your Name Here",
-		"email": "youremailaddress@example.com",
-		"url": "https://example.com/about-me/"
+		"name": "Martha Mock",
+		"email": "iheac@iheacouncil.org",
+		"url": "https://iheacouncil.org"
 	}
 }
