@@ -166,3 +166,5 @@ header h2.h3 {color: grey;
     font-weight: bold;
     margin-top:1em;
   }
+
+  #news hr {padding-bottom: 2em;}
