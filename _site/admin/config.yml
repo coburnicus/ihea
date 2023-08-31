@@ -15,6 +15,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Source, name of site you are linking to", name: "source", widget: "string"}
+      - {label: "Link/URL, if linking to external site", name: "url", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Summary", name: "summary", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
