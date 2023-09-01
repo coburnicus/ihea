@@ -2,10 +2,17 @@
 	<div class="container">
 		<h2>IHEAC in the News</h2>
 		<hr>
-<ul>
+
     {%- for news in collections.news -%}
-      <li>{{ news.data.title }}</li>
+
+     
+      <article>
+        <h3 class="h5"><a href="{{ news.data.url }}">{{ news.data.title }}</a></h3>
+        <p><small>{{ news.data.date }} | {{ news.data.source }} | {{ news.data.author }}</small><br>
+        {{ news.data.summary }}</p>
+      </article>
+      <hr>
     {%- endfor -%}
-    </ul>
+ 
     </div>
 </section>
