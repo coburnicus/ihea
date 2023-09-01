@@ -1,0 +1,11 @@
+<section id="news">
+	<div class="container">
+		<h2>IHEAC in the News</h2>
+		<hr>
+<ul>
+    {%- for news in collections.news -%}
+      <li>{{ news.data.title }}</li>
+    {%- endfor -%}
+    </ul>
+    </div>
+</section>

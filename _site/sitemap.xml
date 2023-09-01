@@ -52,12 +52,17 @@
 	</url>
 	
 	<url>
-		<loc>https://iheacouncil.org/tags/another-tag/</loc>
+		<loc>https://iheacouncil.org/tags/news/</loc>
 		<lastmod>2023-04-07</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://iheacouncil.org/tags/number-2/</loc>
+		<lastmod>2023-04-07</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://iheacouncil.org/tags/another-tag/</loc>
 		<lastmod>2023-04-07</lastmod>
 	</url>
 	
@@ -98,6 +103,11 @@
 	
 	<url>
 		<loc>https://iheacouncil.org/news/ensuring-quality-programs-for-students-with-intellectual-disabilities/</loc>
+		<lastmod>2023-08-31</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://iheacouncil.org/index-news/</loc>
 		<lastmod>2023-08-31</lastmod>
 	</url>
 </urlset>

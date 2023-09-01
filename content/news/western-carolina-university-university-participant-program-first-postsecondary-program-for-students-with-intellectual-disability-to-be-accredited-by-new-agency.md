@@ -11,6 +11,7 @@ summary: Boston, MA — May 10, 2023 — The Institute for Community Inclusion's
   accredited for the next seven years. The WCU UP program is the first program
   to be accredited by the council.
 layout: layouts/page.njk
+tags: news
 ---
 Boston, MA — May 10, 2023 — The Institute for Community Inclusion's (ICI) Think College and the <em>Inclusive Higher Education Accreditation Council (IHEAC)</em>, a new accrediting agency for postsecondary programs for students with intellectual disability (ID), jointly announced today that the <a href="https://www.wcu.edu/learn/departments-schools-colleges/ceap/stl/special-education-programs/university-participant-up-program/index.aspx">Western Carolina University (WCU) University Participant (UP) Program</a> is now fully accredited for the next seven years. The WCU UP program is the first program to be accredited by the council.</p>
 <blockquote>

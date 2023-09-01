@@ -10,6 +10,7 @@ summary: >
   accrediting agency for inclusive postsecondary programs for students with
   intellectual disability (ID).
 layout: layouts/page.njk
+tags: news
 ---
 Boston, Ma. — <a href="https://thinkcollege.net/">Think College</a>, a center within the Institute for Community Inclusion (ICI) at the University of Massachusetts Boston, announced today the launch of the Inclusive Higher Education Accreditation Council (IHEAC), a new accrediting agency for inclusive postsecondary programs for students with intellectual disability (ID).</p>
 <p>In 2020, Think College set out to establish a process for implementing national program accreditation standards to ensure the quality and accountability of college programs for students with ID. The Think College National Coordinating Center (NCC) received funding from the US Department of Education Office of Postsecondary Education for this work.</p>

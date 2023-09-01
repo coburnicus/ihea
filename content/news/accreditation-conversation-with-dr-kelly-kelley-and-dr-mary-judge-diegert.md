@@ -7,4 +7,5 @@ summary: Interview with Western Carolina University Up Program Director Kelly
   Kelley, PhD. Dr. Kelley provides insight and useful tips as the leader of the
   first accredited program.
 layout: layouts/page.njk
+tags: news
 ---

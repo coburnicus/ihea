@@ -9,4 +9,5 @@ summary: >+
   of programs for students long underserved in higher education.
 
 layout: layouts/page.njk
+tags: news
 ---
