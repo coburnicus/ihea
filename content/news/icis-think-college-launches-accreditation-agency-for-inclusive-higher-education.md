@@ -1,7 +1,7 @@
 ---
 title: " ICI's Think College Launches Accreditation Agency for Inclusive Higher
   Education"
-date: 2023-04-05T17:46:50.636Z
+date: 2023-04-05
 url: ""
 summary: >
   Boston, Ma. — Think College, a center within the Institute for Community
