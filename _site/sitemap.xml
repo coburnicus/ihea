@@ -52,11 +52,6 @@
 	</url>
 	
 	<url>
-		<loc>https://iheacouncil.org/tags/news/</loc>
-		<lastmod>2023-04-07</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://iheacouncil.org/tags/another-tag/</loc>
 		<lastmod>2023-04-07</lastmod>
 	</url>
@@ -77,6 +72,11 @@
 	</url>
 	
 	<url>
+		<loc>https://iheacouncil.org/tags/news/</loc>
+		<lastmod>2023-04-07</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://iheacouncil.org/news/western-carolina-university-university-participant-program-first-postsecondary-program-for-students-with-intellectual-disability-to-be-accredited-by-new-agency/</loc>
 		<lastmod>2023-05-10</lastmod>
 	</url>
@@ -93,7 +93,7 @@
 	
 	<url>
 		<loc>https://iheacouncil.org/news/accreditation-conversation-with-dr-kelly-kelley-and-dr-mary-judge-diegert/</loc>
-		<lastmod>2023-07-12</lastmod>
+		<lastmod>2023-07-13</lastmod>
 	</url>
 	
 	<url>
