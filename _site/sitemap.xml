@@ -52,6 +52,11 @@
 	</url>
 	
 	<url>
+		<loc>https://iheacouncil.org/tags/news/</loc>
+		<lastmod>2023-04-07</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://iheacouncil.org/tags/another-tag/</loc>
 		<lastmod>2023-04-07</lastmod>
 	</url>
@@ -68,11 +73,6 @@
 	
 	<url>
 		<loc>https://iheacouncil.org/tags/posts-with-two-tags/</loc>
-		<lastmod>2023-04-07</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://iheacouncil.org/tags/news/</loc>
 		<lastmod>2023-04-07</lastmod>
 	</url>
 	
