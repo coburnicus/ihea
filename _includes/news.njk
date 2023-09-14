@@ -4,11 +4,10 @@
 		<hr>
 
     {%- for news in collections.news -%}
-
      
       <article>
         
-        <h3 class="h5"><a href="{{ news.data.url }}">{{ news.data.title }}</a></h3>
+        <h3 class="h5"><a href="{% if news.data.date %} {{ news.data.url }} {% endif %}">{{ news.data.title }}</a></h3>
         <p><small>  {% if news.data.date %} {{ news.data.date | postDate  }} {% endif %} {% if news.data.source %} | {{ news.data.source }} {% endif %} {% if news.data.author %} | {{ news.data.author }} {% endif %}</small><br>
         {{ news.data.summary }}</p>
       </article>
