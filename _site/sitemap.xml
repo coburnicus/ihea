@@ -42,11 +42,6 @@
 	</url>
 	
 	<url>
-		<loc>https://iheacouncil.org/</loc>
-		<lastmod>2023-04-07</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://iheacouncil.org/tags/</loc>
 		<lastmod>2023-04-07</lastmod>
 	</url>
@@ -109,5 +104,10 @@
 	<url>
 		<loc>https://iheacouncil.org/index-news/</loc>
 		<lastmod>2023-08-31</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://iheacouncil.org/</loc>
+		<lastmod>2023-10-12</lastmod>
 	</url>
 </urlset>
