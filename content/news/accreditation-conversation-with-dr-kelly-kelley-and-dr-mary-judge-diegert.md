@@ -9,3 +9,4 @@ summary: Interview with Western Carolina University Up Program Director Kelly
 layout: layouts/page.njk
 tags: news
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tlYwVkKYY6A?si=oouW9-e6rfhOXsP3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
