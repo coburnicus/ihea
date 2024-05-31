@@ -20,4 +20,4 @@ collections:
       - {label: "Summary, for front page", name: "summary", widget: "text"}
       - {label: "Body, if page is not external", name: "body", widget: "markdown", required: false }
       - {label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk"}
-      - {label: "Tags", name: "news", widget: "hidden", default: "news"}
+      - {label: "Tags", name: "tags", widget: "hidden", default: "news"}

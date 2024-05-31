@@ -12,7 +12,7 @@ summary: "The Inclusive Higher Education Accreditation Council (IHEAC), an
   the United States to be accredited by the new council, led by the University
   of Rochester’s Center for Disability and Education. "
 layout: layouts/page.njk
-news: news
+tags: news
 ---
 The Inclusive Higher Education Accreditation Council (IHEAC), an accrediting agency for postsecondary programs for students with intellectual disability (ID), announces the full accreditation of the [Office of Inclusive Services (OIS) at the University of Colorado Colorado Springs (UCCS)](https://inclusiveservices.uccs.edu/) for the next seven years. OIS becomes the second inclusive postsecondary program in the United States to be accredited by the new council, led by the University of Rochester’s Center for Disability and Education. 
 

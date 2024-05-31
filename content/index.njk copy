@@ -1,70 +1,10 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Inclusive Higher Education Council</title>
-		<meta name="description" content="an accrediting agency for college and university programs for students with intellectual disability">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G654FR64C1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
 
-  gtag('config', 'G-G654FR64C1');
-</script>
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Inclusive Higher Education Council">
-		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Inclusive Higher Education Council">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-		
-		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-		<link rel="stylesheet" href="/css/ici.css">
-	</head>
-	<body>
-	
-			<a class="visually-hidden-focusable" href="#content">Skip to main content</a>
-
-
-		<header>
-    <div class="container">
-
-    <div class="row">
-        <div class="col-sm-5"><a href="/"><img src="/img/IHEA.jpg" alt="Inclusive Higher Education Accreditation" class="img-fluid"></a>
-            
-         </div>
-        <div class="col-sm-6 offset-sm-1"><h2 class="h3 fade-in-text">The <span class="highlight">Inclusive Higher Education Accreditation Council</span> is an accrediting agency for college and university programs for students with intellectual disability.</h2>
-        </div>
-      </div>
-    </div>
-</header>
-<div class="container float-end">
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-      
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="/">Home</a>
-            <a class="nav-link" href="/#news">News</a>
-            <a class="nav-link" href="/#programs">Programs</a>
-            <a class="nav-link" href="/#board">Board Members</a>
-            <a class="nav-link" href="/#partners">Partners</a>
-
-
-          </div>
-        </div>
-      </div>
-    </nav>
-  </div> 
-
-		<main id="content">
-			
+---
 <section id="intro" class="alt_bg">
 	<div class="container">
 		<h2>About the Council </h2>
@@ -148,47 +88,49 @@
 <section id="news">
 	<div class="container">
 		<h2>IHEAC in the News</h2>
-		<hr><article>
-        
-        <h3 class="h5"><a href=" /news/office-of-inclusive-services-at-the-university-of-colorado-colorado-springs-awarded-national-program-accreditation/ ">Office of Inclusive Services at the University of Colorado Colorado Springs Awarded National Program Accreditation </a></h3>
-        <p><small>   May 30, 2024    | Martha Mock, Executive Director, Inclusive Higher Education Accreditation Council </small><br>
-        The Inclusive Higher Education Accreditation Council (IHEAC), an accrediting agency for postsecondary programs for students with intellectual disability (ID), announces the full accreditation of the Office of Inclusive Services (OIS) at the University of Colorado Colorado Springs (UCCS) for the next seven years. OIS becomes the second inclusive postsecondary program in the United States to be accredited by the new council, led by the University of Rochester’s Center for Disability and Education. </p>
-      </article>
-      <hr><article>
-        
-        <h3 class="h5"><a href=" https://www.insidehighered.com/news/2023/03/27/accreditor-emerging-intellectual-disabilities-programs  ">Ensuring Quality Programs for Students With Intellectual Disabilities</a></h3>
-        <p><small>   Aug 30, 2023   | Inside Higer Ed   | Jaime Adame </small><br>
-        An emerging accreditor aims to set standards for evaluating the growing number of programs for students long underserved in higher education.
+		<hr>
+		<article>
+			<h3 class="h5"><a href="/news/office-of-inclusive-services-at-the-university-of-colorado-colorado-springs-awarded-national-program-accreditation/">Office of Inclusive Services at the University of Colorado Colorado Springs
+				Awarded National Program Accreditation</a></h3>
+			<p><small>May 30, 2024</small><br>
+				The Inclusive Higher Education Accreditation Council (IHEAC), an accrediting agency for postsecondary programs for students with intellectual disability (ID), announces the full accreditation of the Office of Inclusive Services (OIS) at the University of Colorado Colorado Springs (UCCS) for the next seven years. OIS becomes the second inclusive postsecondary program in the United States to be accredited by the new </p>
+		</article>
+		<hr>
+		<article>
+			<h3 class="h5"><a href="https://youtu.be/tlYwVkKYY6A">Accreditation conversation with Dr. Kelly Kelley and Dr. Mary Judge Diegert</a></h3>
+			<p><small>Jul 12, 2023</small><br>
+			Interview with Western Carolina University Up Program Director Kelly Kelley, PhD. Dr. Kelley provides insight and useful tips as the leader of the first accredited program.</p>
+		</article>
+<hr>
+<article>
+	<h3 class="h5"><a href="https://weaveeducation.com/podcast/breaking-barriers-accrediting-for-inclusion-with-dr-martha-mock/">PODCAST - Breaking Barriers: Accrediting for Inclusion with Dr. Martha Mock</a></h3>
+	<blockquote>
+	On this episode, Dr. Martha Mock, professor and director of the Center for Disability and Education at University of Rochester and chair of Think College National Coordinating Center Accreditation Workgroup, joins us to share what the workgroup has been doing to develop and launch accrediting processes for these students.
+	
+	</blockquote>
+</article>
+<hr>
+		<article>
+			<h3 class="h5"><a href="/news/first/">Western Carolina University University Participant Program First Postsecondary Program for Students with Intellectual Disability to be Accredited by New Agency</a></h3>
+			<p><small>May 10, 2023</small></p>
+			<p>Boston, MA — May 10, 2023 — The Institute for Community Inclusion's (ICI) Think College and the Inclusive Higher Education Accreditation Council (IHEAC), a new accrediting agency for postsecondary programs for students with intellectual disability…</p>
+		</article>
+	<hr>
+		<article>
+			<h3 class="h5"><a href="/news/launch/">ICI's Think College Launches Accreditation Agency for Inclusive Higher Education</a></h3>
+			<p><small>April 5, 2023</small></p>
+			<p>Boston, Ma. — Think College, a center within the Institute for Community Inclusion (ICI) at the University of Massachusetts Boston, announced today the launch of the Inclusive Higher Education Accreditation Council (IHEAC), a new accrediting agency…</p>
+		</article>
+	<hr>
+		<article>
+			<h3 class="h5"><a href="https://www.insidehighered.com/news/2023/03/27/accreditor-emerging-intellectual-disabilities-programs">Ensuring Quality Programs for Students With Intellectual Disabilities</a></h3>
+			<p><small>March 26, 2023</small></p>
+			<p>An emerging accreditor aims to set standards for evaluating the growing number of programs for students long underserved in higher education.</p>
+		</article>
 
-</p>
-      </article>
-      <hr><article>
-        
-        <h3 class="h5"><a href=" /news/accreditation-conversation-with-dr-kelly-kelley-and-dr-mary-judge-diegert/ ">Accreditation conversation with Dr. Kelly Kelley and Dr. Mary Judge Diegert</a></h3>
-        <p><small>   Jul 11, 2023   </small><br>
-        Interview with Western Carolina University Up Program Director Kelly Kelley, PhD. Dr. Kelley provides insight and useful tips as the leader of the first accredited program.</p>
-      </article>
-      <hr><article>
-        
-        <h3 class="h5"><a href=" https://weaveeducation.com/podcast/breaking-barriers-accrediting-for-inclusion-with-dr-martha-mock/  "> PODCAST - Breaking Barriers: Accrediting for Inclusion with Dr. Martha Mock</a></h3>
-        <p><small>   Jun 30, 2023   | weaveeducation.com   | Dr. Amy Dykens </small><br>
-        <blockquote>On this episode, Dr. Martha Mock, professor and director of the Center for Disability and Education at University of Rochester and chair of Think College National Coordinating Center Accreditation Workgroup, joins us to share what the workgroup has been doing to develop and launch accrediting processes for these students.</blockquote></p>
-      </article>
-      <hr><article>
-        
-        <h3 class="h5"><a href=" /news/western-carolina-university-university-participant-program-first-postsecondary-program-for-students-with-intellectual-disability-to-be-accredited-by-new-agency/ ">Western Carolina University University Participant Program First Postsecondary Program for Students with Intellectual Disability to be Accredited by New Agency</a></h3>
-        <p><small>   May 9, 2023   </small><br>
-        Boston, MA — May 10, 2023 — The Institute for Community Inclusion's (ICI) Think College and the Inclusive Higher Education Accreditation Council (IHEAC), a new accrediting agency for postsecondary programs for students with intellectual disability (ID), jointly announced today that the Western Carolina University (WCU) University Participant (UP) Program is now fully accredited for the next seven years. The WCU UP program is the first program to be accredited by the council.</p>
-      </article>
-      <hr><article>
-        
-        <h3 class="h5"><a href=" /news/icis-think-college-launches-accreditation-agency-for-inclusive-higher-education/ "> ICI&#39;s Think College Launches Accreditation Agency for Inclusive Higher Education</a></h3>
-        <p><small>   Apr 4, 2023   </small><br>
-        Boston, Ma. — Think College, a center within the Institute for Community Inclusion (ICI) at the University of Massachusetts Boston, announced today the launch of the Inclusive Higher Education Accreditation Council (IHEAC), a new accrediting agency for inclusive postsecondary programs for students with intellectual disability (ID).
-</p>
-      </article>
-      <hr></div>
-</section> 
+
+	</div>
+</section>
 
 
 
@@ -288,41 +230,3 @@
 </section>
 
  
-
-		</main>
-
-<footer><section id="about" >
-
-
-	<div class="container">
-        <div class="row">
-            <div class="col-md-6 column">
-              <h3 class="h4">Location</h3>
-             <p>We are a virtual office with a registered corporation in Massachusetts.  </p>
-            </div>
-            <div class="col-md-6 column">
-              <h3 class="h4">Contact</h3>
-            
-                <p>Martha Mock, PhD and Executive Director <br>
-                <a href="mailto:iheac@iheacouncil.org">Email iheac@iheacouncil.org</a><br>
-                <a href="tel:(585) 276 - 3363">(585)276-3363</a></p>
-            </div>
-          </div>
-	</div>
-</section></footer>
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>		
-		
-		<!-- Current page: / -->
-	</body>
-</html>
