@@ -170,3 +170,13 @@ header h2.h3 {color: grey;
   }
 
   #news hr {padding-bottom: 2em;}
+
+  /*heydon pickerings responsive grid method */ 
+  .grid-30 { 
+    --min: 30ch;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+    
+    gap: 1rem; */
+  }
