@@ -1,7 +1,7 @@
 ---
 title: "Office of Inclusive Services at the University of Colorado Colorado
   Springs Awarded National Program Accreditation "
-date: May 30, 2024
+date: 2024-05-31
 author: Martha Mock, Executive Director, Inclusive Higher Education
   Accreditation Council
 summary: "The Inclusive Higher Education Accreditation Council (IHEAC), an
