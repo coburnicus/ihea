@@ -13,7 +13,7 @@ collections:
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string" }
-      - {label: "Publish Date", name: "date", widget: "datetime", date_format: "DD.MM.YYYY", required: false }
+      - {label: "Publish Date", name: "date", widget: "datetime", date_format: "MM-DD-YYYY", required: false }
       - {label: "Link/URL, if linking to external site", name: "url", widget: "string", required: false }
       - {label: "Source, name of site you are linking to", name: "source", widget: "string", required: false }
       - {label: "Author", name: "author", widget: "string", required: false}
