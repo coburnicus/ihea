@@ -1,6 +1,6 @@
 ---
 title: Third University Program for Students with Intellectual Disability Accredited
-date: 02.08.2024
+date: 2024-08-02
 url: https://thinkcollege.net/think-college-news/third-university-program-for-students-with-intellectual-disability-accredited
 source: ThinkCollege.net
 summary: The Inclusive Higher Education Accreditation Council (IHEAC), an
